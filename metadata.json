@@ -1,0 +1,6 @@
+{
+  "name": "Perancang Projek STEAM SD Kelas 1–4",
+  "description": "Aplikasi penentu dan perancang modul projek STEAM terintegrasi berdasarkan Capaian Pembelajaran (CP) untuk Sekolah Dasar kelas 1–4 dengan rekomendasi AI, matriks kesesuaian, dan rubrik asesmen lengkap.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
