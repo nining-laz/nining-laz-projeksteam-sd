@@ -82,7 +82,7 @@ Analisis Capaian Pembelajaran tersebut dan hasilkan 3 hingga 5 alternatif projek
 `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.7-flash',
+      model: 'gemini-3.8-flash',
       contents: userPrompt,
       config: {
         systemInstruction,
@@ -238,7 +238,7 @@ Buatkan rancangan modul pembelajaran projek STEAM yang lengkap, terstruktur, dan
 `;
 
     const response = await ai.models.generateContent({
-      model: 'gemini-3.7-flash',
+      model: 'gemini-3.8-flash',
       contents: userPrompt,
       config: {
         systemInstruction,

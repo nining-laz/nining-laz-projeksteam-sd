@@ -15,12 +15,12 @@ import { AlertCircle, RefreshCw, Compass } from 'lucide-react';
 
 export default function App() {
   const [formData, setFormData] = useState<SteamFormData>({
-    grade: 'Kelas 1',
-    cp: '',
+    grade: 'Kelas 4',
+    cp: 'Peserta didik menganalisis hubungan antara bentuk serta fungsi bagian tubuh pada manusia (pancaindra). Peserta didik dapat membuat simulasi menggunakan alat bantu sederhana.',
     subject: 'IPAS (Ilmu Pengetahuan Alam dan Sosial)',
-    theme: '',
+    theme: 'Pancaindra Manusia & Alat Bantu Sederhana',
     duration: '2–3 pertemuan',
-    resources: 'Kardus bekas, botol plastik, stik es krim, lem kertas, kertas gambar',
+    resources: 'Kardus bekas, botol plastik, balon, selang plastik, stik es krim, lem kertas, kertas gambar',
     complexity: 'Dasar',
   });
 
